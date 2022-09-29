@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dictionary</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <script
+      src="https://kit.fontawesome.com/c5260d95ff.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <header>Dictionary</header>
+      <div class="search">
+        <input type="text" placeholder="search a word" required />
+        <i class="fas fa-search"></i>
+        <i class="fas fa-times"></i>
+      </div>
+      <p class="info-text">
+        Type a word and press enter to get meaning,example,pronunction,and
+        synonyms of that typed word
+      </p>
+      <ul>
+        <li class="word">
+          <div class="details">
+            <p>_</p>
+            <span>_</span>
+          </div>
+          <i class="fas fa-volume-up"></i>
+        </li>
+        <div class="content">
+          <li class="meaning">
+            <div class="details">
+              <p>Meaning</p>
+              <span>_</span>
+            </div>
+          </li>
+          <li class="synonyms">
+            <div class="details">
+              <p>synonyms</p>
+              <div class="list"></div>
+            </div>
+          </li>
+        </div>
+      </ul>
+    </div>
+  </body>
+</html>
